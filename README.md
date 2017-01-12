@@ -70,6 +70,7 @@ It would be important for the above factors to trend towards a personal baseline
 Plugins
 
 SSH [TBD]
+
 Text to Speech [TBD]
 
 Speech to Text [TBD]
