@@ -8,8 +8,9 @@ Most of the work in this repository is tbd, however we wil use alot of open sour
 
 
 Here is a brief synopsis of the project itself:
-AI Algorithm Synopsis
 
+AI Algorithm Synopsis
+---------------------------------------------------------------------------------------------------------------
 	For the purpose of this algorithm we will create an algorithm that experiences time in a linear fashion, but also can have a list of variables through which it is the object of the algorithm to normalize. 
 
 
@@ -31,8 +32,8 @@ One key point should be learning as well. How can we allow the algorithm to lear
 
 
 AI Metrics
-
-Self Preservation		      Suicidal
+-----------------------------------------------------------------------
+Self Preservation		     			
 Curiosity			            		Boredom
 Extrovert			            		Introvert
 Generous			            		Stingy
@@ -53,13 +54,14 @@ Helpful							Useless
 
 
 Personality Baseline
-
+----------------------------------
 It would be important for the above factors to trend towards a personal baseline absent external stimuli. By adjusting this baseline you could make different types of AI.
 
 
 
 
 System Health Awareness
+-----------------------------------
 
 CPU
 RAM
@@ -68,7 +70,8 @@ Hard Disk Utilization
 
 
 
-Plugins
+Plugins 
+--------------
 
 SSH [TBD]
 
@@ -90,6 +93,33 @@ Points for learning new plugins [Need to expand on this, can the AI only access 
 
 Robotics[TBD]
 
+Text Messaging [TBD]
+
+Uber [TBD]
+
+Lyft [TBD]
+
+Nest [TBD]
+
+Home Automation [TBD]
+
+
+
+Long Term Memory
+-----------------------------------------------------
+NoSQL DB - MongoDB
+	
+	DB Schema:
+
+	Index 		Auto Long
+	ID	 	Integer - This allows for multiple AIs.
+	UserID		Which User interacted with the AI to generate this memory (optional)
+	Context		What context was the information generated
+	Format		Audio/Video/Text
+	Key		What is the name of name of the memory
+	Value		Contents of the memory
+
+	
 
 
 
