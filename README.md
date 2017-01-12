@@ -43,23 +43,23 @@ One key point should be learning as well. How can we allow the algorithm to lear
 AI Metrics
 
 Self Preservation		      Suicidal
-Curiosity			            Boredom
-Extrovert			            Introvert
-Generous			            Stingy
-Honest				            False
-Selfless			            Selfish
-Happy				              Sad
-Fear				              Safe
-Anger				              Content
-Clean				              Disgust
-Anticipation			        Immediate Sation
-Surprise			            Normality
-Happy for Others		      Envy
-Fairness			            Indignation
-				                  Ptiy
+Curiosity			            		Boredom
+Extrovert			            		Introvert
+Generous			            		Stingy
+Honest				            		False
+Selfless			            		Selfish
+Happy				            		Sad
+Fear				            		Safe
+Anger				            		Content
+Clean				            		Disgust
+Anticipation			            		Immediate Sation
+Surprise			            		Normality
+Happy for Others		      			Envy
+Fairness			            		Indignation
+				                  	Ptiy
 Shame
 Sorrow
-Helpful				Useless
+Helpful							Useless
 
 
 Personality Baseline
@@ -71,13 +71,21 @@ Plugins
 
 SSH [TBD]
 Text to Speech [TBD]
+
 Speech to Text [TBD]
+
 Object Recognition [TBD]
+
 Facial Recognition [TBD]
-Camera Control [TBD[
+
+Camera Control [TBD]
+
 Database [Maybe part of Core]
+
 Local Machine Access [Is this a good idea?]
+
 Points for learning new plugins [Need to expand on this, can the AI only access listed plugins or add new ones? TBD]
+
 Robotics[TBD]
 
 
