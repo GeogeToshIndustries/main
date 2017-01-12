@@ -1,5 +1,5 @@
 # main
-Main Artificial Intelligence Repository
+Main Artificial Intelligence Matrix
 
 
 
@@ -47,7 +47,7 @@ Anticipation			            		Immediate Sation
 Surprise			            		Normality
 Happy for Others		      			Envy
 Fairness			            		Indignation
-				                  	Ptiy
+				                  	Pity
 Shame
 Sorrow
 Helpful							Useless
