@@ -30,16 +30,6 @@ One key point should be learning as well. How can we allow the algorithm to lear
 
 
 
-
-
-
-
-
-
-
-
-
-
 AI Metrics
 
 Self Preservation		      Suicidal
@@ -65,6 +55,17 @@ Helpful							Useless
 Personality Baseline
 
 It would be important for the above factors to trend towards a personal baseline absent external stimuli. By adjusting this baseline you could make different types of AI.
+
+
+
+
+System Health Awareness
+
+CPU
+RAM
+Hard Disk Utilization
+
+
 
 
 Plugins
