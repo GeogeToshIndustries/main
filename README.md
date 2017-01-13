@@ -111,13 +111,14 @@ NoSQL DB - MongoDB
 	
 	DB Schema:
 
-	Index 		Auto Long
-	ID	 	Integer - This allows for multiple AIs.
-	UserID		Which User interacted with the AI to generate this memory (optional)
-	Context		What context was the information generated
-	Format		Audio/Video/Text
-	Key		What is the name of name of the memory
-	Value		Contents of the memory
+	Index 		Auto Long				Primary Key
+	ID	 	Integer 				This allows for multiple AIs.
+	UserID		VARCHAR(255)				Which User interacted with the AI to generate this memory (optional)
+	Context		VARCHAR(255)				What context was the information generated
+	Sequence	Long 					In what sequence did this memory originate within the conversation.
+	Format		VARCHAR(255)				Audio/Video/Text
+	Key		BLOB					What is the name of name of the memory
+	Value		BLOB					Contents of the memory
 
 	
 
