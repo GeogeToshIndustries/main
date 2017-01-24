@@ -104,23 +104,34 @@ Nest [TBD]
 Home Automation [TBD]
 
 
+AI Memory Structure
 
-Long Term Memory
------------------------------------------------------
-NoSQL DB - MongoDB
+
+It is necessary to create a unified memory structure for the following media types:
+
+Video
+Images
+Text
+
+
+Stimulus Input should be classified before storage:
+
+
+The process should start with the creation of a staging memory:
+
+	The Staged Memory should be then compared against known objects via object recognition algorithms [particularly useful for video and image memories], text memories can cross reference against tagged memories.
+
+	The memory then should be labeled with origin, timestamped, and context. Then the memory should be presented to the algorithm. Once the algorithm assigns an emotional or strategic tags, then the memory can be moved to indexing for storage.
+
+	Once the memory has been indexed it is then searchable by it’s referenced tags, this will allow the algorithm to associate memories, by origin [i.e.. Person it generated the memory with], relative time range, objects in the memory, and emotional impact of the image.
 	
-	DB Schema:
+	Memory Management Software should handle impage compression and determine which images are relevant for long term utilization:
 
-	Index 		Auto Long				Primary Key
-	ID	 	Integer 				This allows for multiple AIs.
-	UserID		VARCHAR(255)				Which User interacted with the AI to generate this memory (optional)
-	Context		VARCHAR(255)				What context was the information generated
-	Sequence	Long 					In what sequence did this memory originate within the conversation.
-	Format		VARCHAR(255)				Audio/Video/Text
-	Key		BLOB					What is the name of name of the memory
-	Value		BLOB					Contents of the memory
+	The structure of the memory apparatus should contain the following
 
-	
-
+	Time synchronized indexer
+	Optical Character/Object Recognition
+	High Speed Storage
+	Memory Management Software 
 
 
